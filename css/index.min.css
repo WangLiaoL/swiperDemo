@@ -792,7 +792,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-size: 100% 100%
 }
 
-#page3 .title, #page4 .title, #page5 .title, #page6 .title, #page7 .title {
+#page3 .title, #page4 .title, #page5 .title {
     -webkit-animation: rollIn .5s linear 0s 1 both;
     animation: rollIn .5s linear 0s 1 both
 }
@@ -837,21 +837,21 @@ a, a:hover, a:active, a:visited, a:target {
     animation: bounceInRight 1s linear 1.5s 1 both
 }
 
-.page8 .title{
+.page5 .title {
+    opacity: 0;
     position: absolute;
-    top: 0.23rem;
+    top: .23rem;
     left: 0;
     right: 0;
     margin: 0 auto;
     width: 2.25rem;
     height: 1.77rem;
-    background: url(../img/22.png) no-repeat;
-    background-size: 100% 100%;
-    opacity: 0;
+    background: url("../img/22.png") no-repeat;
+    background-size: 100% 100%
 }
 
-.page8 .con {
-    opacity: 1;
+.page5 .con {
+    opacity: 0;
     box-sizing: border-box;
     position: absolute;
     top: 1.2rem;
@@ -865,77 +865,76 @@ a, a:hover, a:active, a:visited, a:target {
     background: rgba(255, 255, 255, 0.7)
 }
 
-
-.page8 .con h2 {
+.page5 .con h2 {
     opacity: 0;
     border-bottom: .01rem solid #ccc
 }
 
-.page8 .con h2 span {
+.page5 .con h2 span {
     display: block;
     line-height: .25rem;
     text-align: center
 }
 
-.page8 .con h2 span:nth-child(1) {
+.page5 .con h2 span:nth-child(1) {
     font-size: .2rem
 }
 
-.page8 .con h2 span:nth-child(2) {
+.page5 .con h2 span:nth-child(2) {
     font-size: .12rem;
     font-weight: normal
 }
 
-.page8 .con .txt {
-    font-size: .14rem
+.page5 .con .txt {
+    font-size: .2rem;
 }
 
-.page8 .con .txt div {
+.page5 .con .txt div {
     opacity: 0;
-    margin-top: .15rem
+    margin-top: .15rem;
 }
 
-.page8 .con .txt div h3 {
+.page5 .con .txt div h3 {
     font-size: .14rem;
-    line-height: .3rem
+    line-height: .3rem;
 }
 
-.page8 .con .txt div span {
+.page5 .con .txt div span {
     display: block;
     padding-left: .1rem;
-    line-height: .3rem
+    line-height: .3rem;
 }
 
-.page8 .con .txt div span a {
+.page5 .con .txt div span a {
     display: inline-block;
     margin-left: .05rem;
     color: #a80000;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
-#page8 .title {
+#page5 div:nth-child(1) {
     -webkit-animation: bounceIn 1s linear 0s 1 both;
-    animation: bounceIn 1s linear 0s 1 both
+    animation: bounceIn 1s linear 0s 1 both;
 }
 
-#page8 .con {
+#page5 div:nth-child(2) {
     -webkit-animation: bounceInUp 1s linear 0s 1 both;
-    animation: bounceInUp 1s linear 0s 1 both
+    animation: bounceInUp 1s linear 0s 1 both;
 }
 
-#page8 .con h2 {
+#page5 .con h2 {
     -webkit-animation: bounceInLeft 1s linear .5s 1 both;
-    animation: bounceInLeft 1s linear .5s 1 both
+    animation: bounceInLeft 1s linear .5s 1 both;
 }
 
-#page8 .con .txt div:nth-child(1) {
+#page5 .con .txt div:nth-child(1) {
     -webkit-animation: zoomIn .5s linear 1.5s 1 both;
-    animation: zoomIn .5s linear 1.5s 1 both
+    animation: zoomIn .5s linear 1.5s 1 both;
 }
 
-#page8 .con .txt div:nth-child(2) {
+#page5 .con .txt div:nth-child(2) {
     -webkit-animation: zoomIn .5s linear 2s 1 both;
-    animation: zoomIn .5s linear 2s 1 both
+    animation: zoomIn .5s linear 2s 1 both;
 }
 
 
