@@ -204,6 +204,15 @@
 
         window.setTimeout(controlMusic, 1000);
     }();
+
+    document.addEventListener('DOMContentLoaded', function () {
+    function audioAutoPlay() {
+        document.addEventListener("WeixinJSBridgeReady", function () {
+            audio.play();
+        }, false);
+    }
+    audioAutoPlay();
+});
 </script>
 </body>
 </html>
