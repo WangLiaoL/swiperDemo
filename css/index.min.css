@@ -722,7 +722,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 
 .page3 .con, .page4 .con{
-    opacity: 1;
+    opacity: 0;
     box-sizing: border-box;
     position: absolute;
     left: 0;
