@@ -201,18 +201,8 @@
                 musicMenu.className = 'music move';
             }, false);
         }
-
-        window.setTimeout(controlMusic, 1000);
+        controlMusic();
     }();
-
-    document.addEventListener('DOMContentLoaded', function () {
-    function audioAutoPlay() {
-        document.addEventListener("WeixinJSBridgeReady", function () {
-            audio.play();
-        }, false);
-    }
-    audioAutoPlay();
-});
 </script>
 </body>
 </html>
