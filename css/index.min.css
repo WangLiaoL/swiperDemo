@@ -686,7 +686,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 
 .page3 .title, .page4 .title{
-    opacity: 1;
+    opacity: 0;
     position: absolute;
     left: .04rem;
     top: .25rem;
